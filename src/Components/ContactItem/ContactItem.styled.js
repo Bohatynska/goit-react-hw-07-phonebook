@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const ContactItem = styled.li`
   display: flex;
+  -webkit-box-align: center;
   align-items: center;
 `;
 export const Name = styled.p`
@@ -10,6 +11,7 @@ export const Name = styled.p`
   margin-right: 15px;
   display: flex;
   align-items: center;
+  text-align: center;
 `;
 
 export const Number = styled.p`
@@ -18,14 +20,15 @@ export const Number = styled.p`
   margin-right: 20px;
 `;
 export const DeleteButton = styled.button`
+  margin: 0px 0px 0px auto;
+  padding: 0px;
   cursor: pointer;
   display: block;
   font-size: 15px;
   width: 120px;
   height: 30px;
-  margin: 0 auto;
-  background-color: #d1e3ec;
   border-radius: 5px;
+  background-color: #d1e3ec;
   border: 1px solid;
   &:hover,
   &:focus {

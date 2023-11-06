@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 export const FilterWrap = styled.div`
   display: flex;
-  width: 100%;
+  /* width: 100%; */
 `;
 export const FilterLabel = styled.label`
   display: flex;
+  margin-top: 10px;
 `;
 export const FilterInput = styled.input`
   display: block;
@@ -12,7 +13,6 @@ export const FilterInput = styled.input`
   height: 30px;
   font-size: 15px;
 
-  margin-top: 10px;
   margin-bottom: 10px;
   background-color: #d2ebf9;
   width: 100%;

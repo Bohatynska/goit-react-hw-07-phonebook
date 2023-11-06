@@ -26,7 +26,6 @@ export default function App() {
         {isLoading && <Message text={'Loading your contacts, please wait..'} />}
         {error && <Message text={error} />}
         {!!items.length && <ContactList />}
-        <ContactList />
       </Wrap>
     </Container>
   );

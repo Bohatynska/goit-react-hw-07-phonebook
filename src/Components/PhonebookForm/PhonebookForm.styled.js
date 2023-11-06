@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const FormWrap = styled.div`
-  width: 100%;
   padding: 30px;
   background-color: #9fcfeb;
   border: 2px solid grey;
@@ -22,7 +21,7 @@ export const FormInput = styled.input`
   display: block;
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 100%;
+
   height: 30px;
   background-color: #d2ebf9;
   border-radius: 5px;
